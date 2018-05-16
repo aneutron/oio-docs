@@ -1,4 +1,4 @@
-.. title::    OpenIO SDS Installation Guide for Ubuntu
+.. title::    OpenIO SDS Installation Guide for Debian
 
 .. Don't touch title
 
