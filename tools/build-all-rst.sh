@@ -13,6 +13,7 @@ for guide in arch-design \
              sandbox-guide \
              sdk-guide \
              install-guide-x1-raspbian \
+             install-guide-x1-ubuntu-xenial \
              install-guide-x3-rpi-ubuntu
 do
     tools/build-rst.sh doc/$guide --build build \
