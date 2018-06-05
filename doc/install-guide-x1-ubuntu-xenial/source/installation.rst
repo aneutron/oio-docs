@@ -9,7 +9,8 @@ On your host machine, get an already preinstalled OpenIO SDS image.
 
    .. code-block:: shell
 
-    $ wget [URL] -O openio.img
+    $ wget http://mirror.openio.io/pub/images/openio/sds/17.04/ubuntu/xenial/oio-sds-17.04-ubuntu-xenial-arm64-rpi3b.zip -O openio.img.zip
+    $ unzip openio.img.zip
 
 Now insert your SD card into your host machine and write the image onto it.
 
