@@ -73,6 +73,14 @@ For example, using awsclis
    .. code-block:: shell
 
     $ apt -y install awscli
+    $ mkdir -p ~/.aws
+    $ cat << EOF > ~/.aws/credentials
+    [default]
+    aws_access_key_id=demo:demo
+    aws_secret_access_key=DEMO_PASS
+    s3 =
+        signature_version = s3
+    EOF
     $ aws --endpoint-url http://[RPI_IP]:6007 --no-verify-ssl s3 cp /proc/cpuinfo s3://mycontainer/
     upload: ../../proc/cpuinfo to s3://mycontainer/cpuinfo
 
