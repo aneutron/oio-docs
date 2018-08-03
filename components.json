@@ -105,7 +105,7 @@
         "ansible-role-openio-oiofs":{
             "doc": false,
             "repository":"git@github.com:open-io/ansible-role-openio-oiofs.git",
-            "id":"1.0.0"
+            "id":"1.0.0-rc6"
         },
         "ansible-role-openio-logrotate":{
             "doc": false,
