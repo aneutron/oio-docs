@@ -169,8 +169,8 @@ is easy to perform on-demand maintenance actions.
 Erasure Coding
 ~~~~~~~~~~~~~~
 
-.. image:: ../../../images/openio-arch-erasure-coding-split.png
-   :width: 600 px
+.. image:: ../../../images/openio-arch-erasure-coding-split.svg
+   :width: 800 px
 
 
 OpenIO internally uses the liberasurecode and allows the administrator to
